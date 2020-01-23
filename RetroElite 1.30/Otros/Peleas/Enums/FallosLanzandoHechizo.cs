@@ -1,0 +1,33 @@
+﻿using System;
+
+namespace RetroElite.Otros.Peleas.Enums
+{
+	// Token: 0x02000037 RID: 55
+	public enum FallosLanzandoHechizo
+	{
+		// Token: 0x040000B2 RID: 178
+		NINGUNO,
+		// Token: 0x040000B3 RID: 179
+		DEMASIADOS_LANZAMIENTOS,
+		// Token: 0x040000B4 RID: 180
+		DEMASIADOS_LANZAMIENTOS_POR_OBJETIVO,
+		// Token: 0x040000B5 RID: 181
+		COOLDOWN,
+		// Token: 0x040000B6 RID: 182
+		PUNTOS_ACCION,
+		// Token: 0x040000B7 RID: 183
+		RANGO_MAXIMO,
+		// Token: 0x040000B8 RID: 184
+		RANGO_MINIMO,
+		// Token: 0x040000B9 RID: 185
+		NO_ESTA_EN_LINEA,
+		// Token: 0x040000BA RID: 186
+		NECESITA_CELDA_LIBRE,
+		// Token: 0x040000BB RID: 187
+		NO_ESTA_EN_RANGO,
+		// Token: 0x040000BC RID: 188
+		DEMASIADAS_INVOCACIONES,
+		// Token: 0x040000BD RID: 189
+		DESONOCIDO
+	}
+}
